@@ -50,6 +50,7 @@ body {
 .playground>ul>li {
     width: 100%;
     height: 25px;
+    background: darkslategray;
 }
 
 .playground>ul>li>ul {
