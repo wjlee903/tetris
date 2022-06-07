@@ -1,106 +1,23 @@
 <!DOCTYPE html>
-<!-- 언어 설정, 설정 안하면 현재 나라로 설정됨 -->
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- 모바일 웹에서 사용하는 중요한 태그 (viewport)
-    모바일 디바이스에서 가로크기에 따라서 폰트사이즈, 이미지 자동 조절 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5</title>
-    <link rel="icon" type="image/x-icon" href="/img/icon.ico">
+    <title>TETRIS</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=java">
-        네이버 자바 검색 </a> <br>
-
-    <a href="https://www.daum.net/">daum으로</a>
-
-    <!-- <img src="/img/won.jpg" width="50" height="50" alt="picture"> -->
-
-    <ol type="A">
-        <li>사과
-            <ol type="1">
-                <li>red</li>
-                <li>blue</li>
-                <li>green</li>
-            </ol>
-        </li>
-        <hr />
-        <li>바나나
-            <ol type="i">
-                <li>yellow</li>
-                <li>green</li>
-                <li>cyan</li>
-            </ol>
-        </li>
-        <hr />
-        <li>키위
-            <ul>
-                <li>homeplus</li>
-                <li>lotte</li>
-                <li>emart</li>
-            </ul>
-        </li>
-    </ol>
-
-    <ul> 이름
-        <li>
-            성<input type="text" name="성">
-        </li>
-        <li>
-            이름<input type="text" name="이름">
-        </li>
-    </ul>
-    <hr />
-    <ul> 주소
-        <li>
-            주소 <input type="text" name="주소">
-        </li>
-        <li>
-            상세주소 <input type="text" name="상세주소">
-        </li>
-    </ul>
-    <hr />
-    <ul>취미
-        <li>
-            <input type="checkbox">book
-        </li>
-        <li>
-            <input type="checkbox">food
-        </li>
-        <li>
-            <input type="checkbox">bycle <br>
-        </li>
-    </ul>
-
-    성별 <input type="radio" name="gender" value="m">남자
-    <input type="radio" name="gender" value="f">여자 <br>
-
-    browser <select name="internet" id="browser">
-        <option value="whale">whale</option>
-        <option value="chrome">chrome</option>
-        <option value="safari">safari</option>
-    </select> <br>
-
-    file <input type="file"> <br>
-
-    fruit <input type="button" value="banana">
-    <input type="button" value="mango">
-    <input type="button" value="cherry">
-    <input type="button" value="apple"> <br>
-    <input type="image" src="/img/vscode.jpg" alt="vdcode" width="50">good
-
-
-
-
-
-
-
-
+   <div class="wrapper">
+       <div class="game-text">
+           <span>게임종료!!!</span>
+           <button>다시시작</button>
+       </div>
+       <div class="score">0</div>
+       <div class="playground">
+           <ul></ul>
+       </div>
+   </div> 
+<script src="js/tetris.js" type="module"></script>
 </body>
-
 </html>
