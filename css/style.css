@@ -27,7 +27,7 @@ body {
     font-size: 50px;
 }
 
-.game-text > button {
+.game-text>button {
     padding: 0.5rem 1rem;
     color: #fff;
     background: salmon;
@@ -71,8 +71,12 @@ body {
     background-color: salmon;
 }
 
-.zee {
+.zeeLeft {
     background-color: #e6a23c;
+}
+
+.zeeRight {
+    background-color: #e15017;
 }
 
 .elLeft {
